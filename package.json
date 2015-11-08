@@ -1,0 +1,28 @@
+{
+  "name": "ng2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "jspm": {
+    "dependencies": {
+      "angular2": "npm:angular2@^2.0.0-alpha.45",
+      "bootstrap": "github:twbs/bootstrap@^3.3.5",
+      "css": "github:systemjs/plugin-css@^0.1.19",
+      "es6-shim": "github:es-shims/es6-shim@^0.33.10",
+      "reflect-metadata": "npm:reflect-metadata@^0.1.2",
+      "text": "github:systemjs/plugin-text@^0.0.3",
+      "ts": "github:frankwallis/plugin-typescript@^2.2.0",
+      "zone.js": "npm:zone.js@^0.5.8"
+    },
+    "devDependencies": {
+      "live-server": "npm:live-server@0.8.1",
+      "typescript": "npm:typescript@1.6.2"
+    }
+  }
+}
