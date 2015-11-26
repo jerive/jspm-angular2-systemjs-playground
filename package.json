@@ -11,7 +11,7 @@
   "license": "MIT",
   "jspm": {
     "dependencies": {
-      "angular2": "npm:angular2@^2.0.0-alpha.45",
+      "angular2": "npm:angular2@^2.0.0-alpha.46",
       "bootstrap": "github:twbs/bootstrap@^3.3.5",
       "css": "github:systemjs/plugin-css@^0.1.19",
       "es6-shim": "github:es-shims/es6-shim@^0.33.10",
