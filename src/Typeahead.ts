@@ -1,4 +1,5 @@
 import {Component, Input, Control, EventEmitter, CORE_DIRECTIVES, FORM_DIRECTIVES} from 'angular2/angular2';
+import 'rxjs/add/operator/throttleTime';
 
 @Component({
     directives: [CORE_DIRECTIVES, FORM_DIRECTIVES],
@@ -12,7 +13,6 @@ export class Typeahead{
     public searchText:Control = new Control();
 
     constructor() {
-        // console.log(new Rx.Observable());
-        // console.log(this.searchText.valueChanges.toRx());
+        this.searchText.valueChanges.throttleTime(500).subscribe(x => console.log(x));
     }
 }
