@@ -2,7 +2,8 @@ import 'reflect-metadata';
 import 'bootstrap';
 import 'bootstrap/css/bootstrap.min.css!css';
 
-import {Component, bootstrap} from 'angular2/angular2';
+import {Component} from 'angular2/core';
+import {bootstrap} from 'angular2/bootstrap';
 import {Typeahead} from "./Typeahead";
 import template from './main.html!text';
 
