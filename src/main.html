@@ -2,7 +2,7 @@
 	<div class="row">
 		<div class="col-md-12">
 			<h3>My First Angular 2 App</h3>
-			<typeahead [from]="hello"></typeahead>
+			<typeahead [from]="hello" (out)="plop($event)"></typeahead>
 		</div>
 	</div>
 </div>
