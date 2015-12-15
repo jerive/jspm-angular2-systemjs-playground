@@ -7,7 +7,7 @@
   "license": "MIT",
   "jspm": {
     "dependencies": {
-      "angular2": "npm:angular2@^2.0.0-alpha.54",
+      "angular2": "npm:angular2@^2.0.0-beta.0",
       "bootstrap": "github:twbs/bootstrap@^3.3.6",
       "css": "github:systemjs/plugin-css@^0.1.20",
       "es6-promise": "npm:es6-promise@^3.0.2",
@@ -25,6 +25,6 @@
   },
   "dependencies": {
     "rxjs": "^5.0.0-beta.0",
-    "angular2": "^2.0.0-alpha.54"
+    "angular2": "^2.0.0-beta.0"
   }
 }
