@@ -1,22 +1,26 @@
 {
   "name": "ng2",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jerive/jspm-angular2-systemjs-playground"
+  },
   "description": "",
   "keywords": [],
   "author": "",
   "license": "MIT",
   "jspm": {
     "dependencies": {
-      "angular2": "npm:angular2@^2.0.0-beta.0",
+      "angular2": "npm:angular2@^2.0.0-beta.7",
       "bootstrap": "github:twbs/bootstrap@^3.3.6",
       "css": "github:systemjs/plugin-css@^0.1.20",
       "es6-promise": "npm:es6-promise@^3.0.2",
-      "es6-shim": "npm:es6-shim@^0.33.13",
+      "es6-shim": "npm:es6-shim@^0.33.3",
       "reflect-metadata": "npm:reflect-metadata@^0.1.2",
-      "rxjs": "npm:rxjs@^5.0.0-beta.0",
+      "rxjs": "npm:rxjs@^5.0.0-beta.1",
       "text": "github:systemjs/plugin-text@^0.0.4",
       "ts": "github:frankwallis/plugin-typescript@^2.4.3",
-      "zone.js": "npm:zone.js@^0.5.10"
+      "zone.js": "npm:zone.js@^0.5.15"
     },
     "devDependencies": {
       "live-server": "npm:live-server@0.8.1",
@@ -24,7 +28,11 @@
     }
   },
   "dependencies": {
-    "rxjs": "^5.0.0-beta.0",
-    "angular2": "^2.0.0-beta.0"
+    "rxjs": "^5.0.0-beta.1",
+    "angular2": "^2.0.0-beta.7",
+    "zone.js": "0.5.15",
+    "reflect-metadata": "0.1.2",
+    "es6-shim": "0.33.3",
+    "es6-promise": "3.0.2"
   }
 }
