@@ -3,6 +3,7 @@ System.config({
   defaultJSExtensions: true,
   transpiler: "typescript",
   typescriptOptions: {
+    "target": "es5",
     "module": "system",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true

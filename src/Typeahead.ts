@@ -9,13 +9,13 @@ import "rxjs/add/operator/distinctUntilChanged";
     directives: [CORE_DIRECTIVES, FORM_DIRECTIVES],
     selector: "typeahead",
     template: `
-        <input #auto type="text" [ngFormControl]="searchText" placeholder="Type to autocomplete" />
+        <input class="form-control" #auto type="text" [ngFormControl]="searchText" placeholder="Type to autocomplete" />
     `
 })
 export class Typeahead {
     public searchText:Control = new Control();
 
-    @Input() from;
+    @Input() from:string;
 
     @Output() out = this.searchText.valueChanges
         .filter(x => x.length > 2)

@@ -1,16 +1,17 @@
 {
-    "compilerOptions": {
-        "module": "system",
-        "experimentalDecorators": true,
-        "emitDecoratorMetadata": true,
-        "target": "es5",
-        "noImplicitAny": false,
-        "outDir": "build",
-        "rootDir": ".",
-        "sourceMap": true
-    },
-    "exclude": [
-        "node_modules",
-        "build"
-    ]
+  "compilerOptions": {
+    "module": "system",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "target": "es5",
+    "noImplicitAny": true,
+    "outDir": "build",
+    "rootDir": ".",
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
 }
