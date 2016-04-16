@@ -1,3 +1,4 @@
+import "zone.js";
 import "reflect-metadata";
 import "bootstrap";
 import "bootstrap/css/bootstrap.min.css!css";
