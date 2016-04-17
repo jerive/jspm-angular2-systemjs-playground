@@ -24,6 +24,7 @@
     "devDependencies": {
       "jasmine-core": "npm:jasmine-core@^2.4.1",
       "karma-jasmine": "npm:karma-jasmine@^0.3.7",
+      "systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@^0.5.7",
       "typescript": "npm:typescript@1.8.9"
     }
   },
@@ -36,6 +37,7 @@
     "systemjs": "0.19.26"
   },
   "devDependencies": {
+    "chokidar-socket-emitter": "0.5.1",
     "jasmine-core": "^2.4.1",
     "karma": "0.13.21",
     "karma-jasmine": "^0.3.7",

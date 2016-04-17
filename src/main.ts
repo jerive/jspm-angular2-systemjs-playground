@@ -20,3 +20,15 @@ class AppComponent {
 }
 
 bootstrap(AppComponent);
+
+const hr:any = window["hr"];
+
+hr && hr.on("change", (fileName:string) => {
+    if (fileName.indexOf("html") !== -1) {
+        const newBody = document.createElement("body");
+        newBody.appendChild(document.createElement("my-app"));
+        document.body = newBody;
+
+        bootstrap(AppComponent);
+    }
+});

@@ -8,8 +8,14 @@
     <script src="/jspm_packages/system.js"></script>
     <script src="/config.js"></script>
     <script>
+      System.trace = true;
+
+      System.import('systemjs-hot-reloader').then(function(HR) {
+        const hr = new HR.default("http://localhost:5776");
+        System.import('src');
+      });
+
       System.import('bootstrap/css/bootstrap.min.css!css');
-      System.import('src');
     </script>
   </head>
   <body>
